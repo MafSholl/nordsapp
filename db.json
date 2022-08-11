@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "firstName": "Adeshola",
+      "lastName": "Mafikuyomi",
+      "email": "marvesholl1@gmail.com",
+      "phone": "09061822602",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 1
+    }
+  ]
+}

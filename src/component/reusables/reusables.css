@@ -1,21 +1,20 @@
 .input-container {
     height: 50px;
-    width: 330px;
     border: 1px solid var(--primary_green);
     border-radius: 3px;
     display: flex;
     align-items: center;
     position: relative;
-    margin: 50px 0;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 10px;;
 }
 
 .label-container {
-    background-color: var(--primary_green);
-    height: 15px;
-    width: 63px;
-    border-radius: 9px;
+    background-color: white;
+    height: 18px;
+    min-width: 65px;
+    padding: 0 5px;
+    border-radius: 4px;
     position: absolute;
     left: 18px;
     top: -9px;
@@ -26,24 +25,47 @@
 }
 
 .input-container input {
-    height: auto;
+    height: 25px;
     border: transparent;
-    padding: 0 10px;
+    padding: 0 15px;
+    margin: 0 8px 0 5px;
     font-size: 16px;
     width: 100%;
     background-color: transparent;
     color: white;
 }
 
-.input-conttainer input:focus-visible {
+.input-container input:focus-visible {
     outline: none;
 }
 
-.input-conttainer input:focus-within {
-    border: 2px solid white;
+.input-container input:focus-within {
+    border: 0.5px solid var(--primary_green);
+    border-radius: 5px;
+}
+
+.input-container:focus-within > .label-container {
+    background-color: var(--primary_green);
 }
 
 .input-container img {
     height: 16px;
+}
 
+.fieldError {
+    color: red;
+    font-size: 12px;
+    margin: 4px 0;
+}
+
+.noFieldError {
+    color: transparent;
+    margin: 4px 0;
+}
+
+.input-error-container {
+    height: 35px;
+    margin: 10px;
+    padding-bottom: 0px;
+    width: 15em;
 }

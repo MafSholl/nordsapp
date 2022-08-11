@@ -1,6 +1,8 @@
 :root{
   --primary_green: #0ccE60;
   --primary_black: #0c090d;
+  --dashboard_main: #1f1f1f;
+  --dashboard_accent: #e1e1e1;
 }
 
 *{
