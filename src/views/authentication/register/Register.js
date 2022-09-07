@@ -77,11 +77,6 @@ const Register = () => {
         }
     }
 
-    // const checkIfItIsEmail = (e) => {
-
-    // }
-
-
     return (
         <div className="authenticationContainer">
             <div className="leftSide">

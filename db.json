@@ -9,5 +9,62 @@
       "confirmPassword": "123",
       "id": 1
     }
+  ],
+
+  "events": [
+    {
+      "id" : 1,
+      "date_created" : "2021-12-12",
+      "date_updated" : "2021-12-12",
+      "location" : "",
+      "venue" : "",
+      "stop_time" : "",
+      "start_time" : "",
+      "event_theme" : "",
+      "decription" : "",
+      "event_category" : "",
+      "event_date" : "",
+      "created_by" : "",
+      "user" : "",
+      "host" : "",
+      "guests" :[],
+      "attendees" : [],
+      "event_banner" : "",
+      "event_image" : "",
+      "sponsors" : [],
+      "ticket_category" : "",
+      "ticket_fee" : "",
+      "event_team" : [], 
+      "event_dress_code" : "",
+      "number_of_seats" : "",
+      "available_tickets" : ""
+    }
+  ],
+
+  "fakeEvents": [
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    },
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    },
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    },
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    },
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    },
+    {
+      "title" : "Alakija",
+      "description" : "today is a happy day. Yayy!!!"
+    }
   ]
 }

@@ -1,0 +1,120 @@
+.my-events-container {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.my-events-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 4px;
+    align-items: center;
+    background-color: white;
+}
+
+.my-events-header > button {
+    background-color: var(--primary_black);
+    border: unset;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 45px;
+
+}
+
+.my-events-header-filter{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#filter-date {
+    width: 200px;
+    height: 15px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.my-events-header-filter p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--primary_green);
+    font-weight: bold;
+}
+
+#filter-search {
+    width: 30em;
+    height: 40px;
+    margin-top: 5px;
+}
+
+/* .icon-cover {
+    background-color: var(--primary_green);
+    padding: 5px;
+    border-radius: 4px;
+} */
+
+.my-events-cards {
+    display: flex;
+    padding: 5px;
+    margin-top: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    position: relative;
+    height: 30vh;
+    border-radius: 6px;
+    background-color: white;
+    width: 18vw;
+    contain: content;
+    display: flex;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.event-actions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.image-container {
+    height: 100%;
+    width: 50%;
+    background-size: contain;
+    background: round;
+}
+
+.event-actions > button {
+    background-color: var(--dashboard_main);
+    color: white;
+    border-top-left-radius: 6px;
+    padding: 10px 20px;
+    border: unset;
+    cursor: pointer;
+}
+
+.event-details p {
+    color: rgb(80, 80, 80);
+    font-size: 12px;
+    margin: 0;
+}
+
+.event-details h5 {
+    color: var(--dashboard_main);
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.event-details {
+    padding: 10px;
+}
+
+.image-container {
+
+}
